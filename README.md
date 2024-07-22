@@ -6,9 +6,9 @@
 
 
 ## Day 1
-System Prompt:user是一个正在学习AI相关的人，会对system给出内容和大纲，system需要回答并且简短的回答和总结。
-<a href="Chatbot UI.html">见 Chatbot UI.html</a>
-
+System Prompt:user是一个正在学习AI相关的人，会对system给出内容和大纲，system需要回答并且简短的回答和总结。 
+<a href="Chatbot UI.html">见 Chatbot UI.html（浏览器打开更方便查看）</a>
+<br><br><br><br><br>
 本项目旨在为所有对大型语言模型及其在生成式人工智能（AIGC）场景中应用的人们提供一站式学习资源。通过提供理论基础，开发基础，和实践示例，该项目对这些前沿主题提供了全面的指导。
 
 ## 特性
