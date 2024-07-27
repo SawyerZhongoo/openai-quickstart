@@ -11,13 +11,13 @@ from openai import OpenAI
 class OpenAIModel(Model):
     def __init__(self, model: str, api_key: str):
         self.model = model
-        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.client = OpenAI(base_url="https://api.xiaoai.plus/v1", api_key="uKAcWnrmqyOFdqNd625a799a054843638fC10596BaA014E4")
 
     def make_request(self, prompt):
         attempts = 0
         while attempts < 3:
             try:
-                if self.model == "gpt-3.5-turbo":
+                if self.model == "gpt-3.5-turbo" or self.model == "gpt-4o":
                     response = self.client.chat.completions.create(
                         model=self.model,
                         messages=[
